@@ -1,0 +1,3 @@
+1,1,2021-12-13 12:00,Pfizer,prva,true
+2,3,2021-10-12 13:00,SputnikV,druga,true
+3,2,2021-05-05 10:00,AstraZeneca,prva,true

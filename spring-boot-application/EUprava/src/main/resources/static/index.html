@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>LogIn</title>
+<base href="/EUprava/">
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+	<form method="post" action="PrijavaOdjava/Login">
+		<table>
+			<caption>Prijava korisnika na sistem</caption>
+			<tr><th>JMBG </th><td><input type="text" value="" name="jmbg" required/></td></tr>
+			<tr><th>Password </th><td><input type="password" value="" name="password" required/></td></tr>
+			<tr><th></th><td><input type="submit" value="Prijavi se" /></td>
+		</table>
+	</form>
+	<p>Medicinski radnik, jmbg: 2222222222222 ^^ password: test</p>
+	<p>Pacijent (nije privaljen i nije vakcinisan), jmbg: 1231231231238 ^^ password: test</p>
+	<p>Pacijent (prijavljen, ali nije vakcinisan), jmbg: 1231231231233 ^^ password: test</p>
+	<p>Pacijent (vakcinisan prvom dozom), jmbg: 1231231231234 ^^ passowrd: test </p>
+	<p>Pacijent (vakcinisan drugom dozom), jmbg: 3213213213213 ^^ password: test</p>
+</body>
+</html>

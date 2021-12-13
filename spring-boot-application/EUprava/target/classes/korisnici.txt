@@ -1,0 +1,9 @@
+1,petar,petrovic,1231231231233,test,pacijent,true,true
+2,milos,miric,1231231231234,test,pacijent,true,true
+3,jovana,jovanovic,3213213213213,test,pacijent,true,true
+4,milan,milanovic,1231231231236,test,pacijent,true,false
+5,stefan,stefanovic,1231231231238,test,pacijent,true,false
+6,jovan,jovanovic,3214325332412,test,pacijent,true,false
+7,marko,markovic,1111111111111,test,medicinskiRadnik,true,true
+8,darko,darkovic,4444444444444,test,medicinskiRadnik,true,true
+9,zeljko,djurdjevic,2222222222222,test,medicinskiRadnik,true,true

@@ -1,0 +1,5 @@
+1,Pfizer,Amerika,true
+2,AstraZeneca,Britanija,true
+3,Moderna,Amerika,true
+4,Sinopharm,Francuska,true
+5,SputnikV,Rusija,true
