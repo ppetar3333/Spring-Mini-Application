@@ -1,1 +1,1 @@
-# Spring-Mini-Application
+# Java-Spring-Mini-Website
