@@ -1,1 +1,53 @@
 @charset "ISO-8859-1";
+
+.margin-tb-s {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.margin-padding-s {
+	margin: 15px;
+	padding: 10px;
+}
+
+td {
+	background: #D0D0D0;
+	padding: 20px;
+}
+
+th {
+	padding: 25px;
+	font-size: 18px;
+}
+
+a, input[type=submit] {
+	text-decoration: none;
+	background: black;
+	color: white;
+	border-radius: 4px;
+	padding: 10px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: max-content;
+	cursor: pointer;
+	border: none;
+}
+
+caption {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+hr {
+	margin-top: 30px;
+}
+
+select {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	margin-left: 10px;
+}

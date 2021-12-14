@@ -107,6 +107,7 @@ public class PrijavaKontroler {
 					"	<meta charset=\"UTF-8\">\r\n" + 
 					"	<base href=\"/EUprava/\">	\r\n" + 
 					"	<title>Prijava korisnika</title>\r\n" + 
+					"<link rel=\"stylesheet\" type=\"text/css\" href=\"css/index.css\"/>\r\n" +
 					"</head>\r\n" + 
 					"<body>\r\n");
 			if(!greska.equals(""))
@@ -115,17 +116,17 @@ public class PrijavaKontroler {
 			retVal.append(
 					"	<form method=\"post\" action=\"PrijavaOdjava/Login\">\r\n" + 
 					"		<table>\r\n" + 
-					"			<caption>Prijava korisnika na sistem</caption>\r\n" + 
-					"			<tr><th>JMBG</th><td><input type=\"text\" value=\"\" name=\"jmbg\" required/></td></tr>\r\n" + 
-					"			<tr><th>passowrd</th><td><input type=\"password\" value=\"\" name=\"password\" required/></td></tr>\r\n" + 
+					"			<caption class=\"margin-tb-s\">Prijava korisnika na sistem</caption>\r\n" + 
+					"			<tr><th>JMBG</th><td><input class=\"margin-padding-s\" type=\"text\" value=\"\" name=\"jmbg\" required/></td></tr>\r\n" + 
+					"			<tr><th>passowrd</th><td><input class=\"margin-padding-s\" type=\"password\" value=\"\" name=\"password\" required/></td></tr>\r\n" + 
 					"			<tr><th></th><td><input type=\"submit\" value=\"Prijavi se\" /></td>\r\n" + 
 					"		</table>\r\n" + 
 					"	</form>\r\n" + 
-					"	<p>Medicinski radnik, jmbg: 2222222222222 ^^ password: test</p>\r\n"
+					"	<p class=\"margin-tb-s\">Medicinski radnik, jmbg: 2222222222222 ^^ password: test</p>\r\n"
 					+ "	<p>Pacijent (nije privaljen i nije vakcinisan), jmbg: 1231231231238 ^^ password: test</p>\r\n"
-					+ "	<p>Pacijent (prijavljen, ali nije vakcinisan), jmbg: 1231231231233 ^^ password: test</p>\r\n"
+					+ "	<p class=\"margin-tb-s\">Pacijent (prijavljen, ali nije vakcinisan), jmbg: 1231231231233 ^^ password: test</p>\r\n"
 					+ "	<p>Pacijent (vakcinisan prvom dozom), jmbg: 1231231231234 ^^ passowrd: test </p>\r\n"
-					+ "	<p>Pacijent (vakcinisan drugom dozom), jmbg: 3213213213213 ^^ password: test</p>"
+					+ "	<p class=\"margin-tb-s\">Pacijent (vakcinisan drugom dozom), jmbg: 3213213213213 ^^ password: test</p>"
 					+ "	<br/>\r\n" +
 					"</body>" + 
 					"</html>");
@@ -150,6 +151,7 @@ public class PrijavaKontroler {
 					"	<meta charset=\"UTF-8\">\r\n" + 
 					"	<base href=\"/EUprava/\">	\r\n" + 
 					"	<title>Prijava korisnika</title>\r\n" + 
+					"<link rel=\"stylesheet\" type=\"text/css\" href=\"css/index.css\"/>\r\n" +
 					"</head>\r\n" + 
 					"<body>\r\n");
 			if(!greska.equals(""))
@@ -196,6 +198,7 @@ public class PrijavaKontroler {
 					"	<meta charset=\"UTF-8\">\r\n" + 
 					"	<base href=\"/EUprava/\">	\r\n" + 
 					"	<title>Prijava korisnika</title>\r\n" + 
+					"<link rel=\"stylesheet\" type=\"text/css\" href=\"css/index.css\"/>\r\n"+
 					"</head>\r\n" + 
 					"<body>\r\n");
 			if(!greska.equals(""))
@@ -204,9 +207,9 @@ public class PrijavaKontroler {
 			retVal.append(
 					"	<form method=\"post\" action=\"PrijavaOdjava/Login\">\r\n" + 
 					"		<table>\r\n" + 
-					"			<caption>Prijava korisnika na sistem</caption>\r\n" + 
-					"			<tr><th>JMBG</th><td><input type=\"text\" value=\"\" name=\"jmbg\" required/></td></tr>\r\n" + 
-					"			<tr><th>Password</th><td><input type=\"password\" value=\"\" name=\"password\" required/></td></tr>\r\n" + 
+					"			<caption class=\"margin-tb-s\">Prijava korisnika na sistem</caption>\r\n" + 
+					"			<tr><th>JMBG</th><td><input class=\"margin-padding-s\" type=\"text\" value=\"\" name=\"jmbg\" required/></td></tr>\r\n" + 
+					"			<tr><th>Password</th><td><input class=\"margin-padding-s\" type=\"password\" value=\"\" name=\"password\" required/></td></tr>\r\n" + 
 					"			<tr><th></th><td><input type=\"submit\" value=\"Prijavi se\" /></td>\r\n" + 
 					"		</table>\r\n" + 
 					"	</form>" + 

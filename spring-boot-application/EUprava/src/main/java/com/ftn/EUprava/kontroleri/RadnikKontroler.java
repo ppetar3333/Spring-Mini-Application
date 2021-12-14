@@ -75,6 +75,7 @@ public class RadnikKontroler {
 				"	<meta charset=\"UTF-8\">\r\n" + 
 	    		"	<base href=\""+bURL+"\">\r\n" + 
 				"	<title>EUprava</title>\r\n" + 
+	    		"<link rel=\"stylesheet\" type=\"text/css\" href=\"css/index.css\"/>\r\n"+
 				"</head>\r\n" + 
 				"<body> "+
 				"	<div> Prijavljen je:  <strong> "+ korisnik.getFirstName() +" "+ korisnik.getLastName() + "</strong>"+ "</br>"   + "</a> <a href=\"PrijavaOdjava/Logout\">Odjavi se</a></li></div>\r\n" +  "<hr>");
@@ -153,6 +154,7 @@ public class RadnikKontroler {
 				"	<meta charset=\"UTF-8\">\r\n" + 
 	    		"	<base href=\""+bURL+"\">\r\n" + 
 				"	<title>EUprava</title>\r\n" + 
+	    		"<link rel=\"stylesheet\" type=\"text/css\" href=\"css/index.css\"/>\r\n" +
 				"</head>\r\n" + 
 				"<body> "+
 				"	<div>  Prijavljen je:  <strong> "+ korisnik.getFirstName() +" "+ korisnik.getLastName() + "</strong>"+ "</br>"   + "</a> <a href=\"PrijavaOdjava/Logout\">Odjavi se</a></li></div>\r\n" +  "<hr>" + "<a href=\"radnik/\">Nazad</a> \r\n\n\n");
