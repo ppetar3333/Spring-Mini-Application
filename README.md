@@ -1,4 +1,4 @@
-# ** Java-Spring-Mini-Website **
+# **Java-Spring-Mini-Website**
 
 > Simple java spring website. To store data i was using text files.
 
